@@ -11,10 +11,9 @@ def is_palindrome(s: int):
         f -= 1 # iterate down from final index to first index then append
         
     if l == j: # compare the two arrays to check if palindrome
-        print("true")
+        return True
     else:
-        print("false")
+        return False
 
-    return 
         
 is_palindrome(-121)
